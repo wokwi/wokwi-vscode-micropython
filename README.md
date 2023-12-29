@@ -1,4 +1,4 @@
-# MicroPython in Wokwi for VS Code
+# MicroPython Simulation in Wokwi for VS Code
 
 Example project for running MicroPython on [Wokwi for VS Code](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode).
 

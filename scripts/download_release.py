@@ -21,4 +21,5 @@ def download_firmware(directory: str, firmware: str):
 
 download_firmware('esp32', f'ESP32_GENERIC-{args.release}.bin')
 download_firmware('esp32-c3', f'ESP32_GENERIC_C3-{args.release}.bin')
+download_firmware('esp32-s3', f'ESP32_GENERIC_S3-{args.release}.bin')
 download_firmware('pi-pico', f'RPI_PICO-{args.release}.uf2')

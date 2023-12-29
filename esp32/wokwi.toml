@@ -1,5 +1,5 @@
 [wokwi]
 version = 1
-elf = "ESP32_GENERIC-20231005-v1.21.0.bin"
-firmware = "ESP32_GENERIC-20231005-v1.21.0.bin"
+elf = "ESP32_GENERIC-20231227-v1.22.0.bin"
+firmware = "ESP32_GENERIC-20231227-v1.22.0.bin"
 rfc2217ServerPort = 4000

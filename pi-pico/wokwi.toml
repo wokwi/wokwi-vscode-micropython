@@ -1,5 +1,5 @@
 [wokwi]
 version = 1
-elf = "RPI_PICO-20231227-v1.22.0.uf2"
-firmware = "RPI_PICO-20231227-v1.22.0.uf2"
+elf = "RPI_PICO-20240105-v1.22.1.uf2"
+firmware = "RPI_PICO-20240105-v1.22.1.uf2"
 rfc2217ServerPort = 4000

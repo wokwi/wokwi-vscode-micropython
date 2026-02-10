@@ -42,10 +42,16 @@ echo 'config={"wokwi": "connect port:rfc2217://localhost:4000"}' > ~/.config/mpr
 
 After running this command, you can connect to the simulator by running `mpremote wokwi`.
 
+## Troubleshooting
+
+**`TransportError: could not enter raw repl`**
+
+This error means mpremote couldn't establish a connection with the MicroPython REPL. Common causes:
+
+1. **Simulator tab not visible** - VS Code pauses the simulation when the Wokwi tab is not visible. Make sure the simulator tab is in the foreground.
+2. **Board still booting** - Wait a few seconds after the simulator starts before running mpremote. The board needs time to boot MicroPython.
+3. **Port conflict** - Make sure nothing else is using port 4000. You can change the port in `wokwi.toml` by editing the `rfc2217ServerPort` value.
+
 ## License
 
 Licensed under the MIT license. See [LICENSE](LICENSE) for details.
-
-```
-
-```

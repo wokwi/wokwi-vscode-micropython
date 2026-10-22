@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+elf = "NUCLEO_L432KC-20260824-v1.29.0.hex"
+firmware = "NUCLEO_L432KC-20260824-v1.29.0.hex"
+rfc2217ServerPort = 4000

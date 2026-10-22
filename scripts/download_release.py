@@ -20,8 +20,13 @@ def download_firmware(directory: str, firmware: str):
 
 
 download_firmware('esp32', f'ESP32_GENERIC-{args.release}.bin')
-download_firmware('esp32-c3', f'ESP32_GENERIC_C3-{args.release}.bin')
+download_firmware('esp32-s2', f'ESP32_GENERIC_S2-{args.release}.bin')
 download_firmware('esp32-s3', f'ESP32_GENERIC_S3-{args.release}.bin')
+download_firmware('esp32-c3', f'ESP32_GENERIC_C3-{args.release}.bin')
+download_firmware('esp32-c5', f'ESP32_GENERIC_C5-{args.release}.bin')
+download_firmware('esp32-c6', f'ESP32_GENERIC_C6-{args.release}.bin')
+download_firmware('esp32-h2', f'ESP32_GENERIC_H2-{args.release}.bin')
+download_firmware('esp32-p4', f'ESP32_GENERIC_P4-{args.release}.bin')
 download_firmware('pi-pico', f'RPI_PICO-{args.release}.uf2')
 download_firmware('pi-pico-w', f'RPI_PICO_W-{args.release}.uf2')
 download_firmware('pi-pico-2', f'RPI_PICO2-{args.release}.uf2')

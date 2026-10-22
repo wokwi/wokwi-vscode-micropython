@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-2w",
+      "id": "pico",
+      "top": -3.15,
+      "left": 3.6,
+      "attrs": {}
+    }
+  ],
+  "connections": [],
+  "dependencies": {}
+}
